@@ -1,6 +1,7 @@
 name: Docker Actions
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [labeled]
 
